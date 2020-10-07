@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send({ hi: 'there'});
 });
 app.get('/greeting', (req,res) => {
-    res.send({sve: 'sve'});
+    res.send({sve: 'sves'});
 })
 
 const PORT = process.env.PORT || 5000;
